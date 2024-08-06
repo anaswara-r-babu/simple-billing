@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="parent">
+    <h1>Sample Billing.</h1>
+    <div class="container">
+        <form id="myForm">
+            <div class="input1">
+                <input type="text" class="product"  placeholder="Product">
+                <input type="number" class="amount" placeholder="0">
+                <button id="plus" class="plus newbtn">+</button>
+            </div>
+                <!-- <div id="copied-input" class="copied-input"></div> -->
+        </form>
+
+        <div class="content">
+            <button id="transaction" class="transaction">Add Transaction</button>
+            <div class="text-total-amt">Total Amount = <span id="res-amt" class="res-amt"></span></div>
+        </div>
+
+    </div>
+
+    <div id="table-container"></div>
+</div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
